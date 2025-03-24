@@ -1,0 +1,26 @@
+# Ignora o ambiente virtual
+venv/
+
+# Ignora arquivos de cache do Python
+__pycache__/
+*.py[cod]
+
+# Ignora arquivos de configuração local
+.env
+.vscode/
+.idea/
+
+# Ignora arquivos de banco de dados SQLite
+*.sqlite3
+
+# Ignora arquivos de log
+*.log
+
+# Ignora arquivos de distribuição e build
+dist/
+build/
+*.egg-info/
+
+# Ignora arquivos de sistema
+.DS_Store
+Thumbs.db
